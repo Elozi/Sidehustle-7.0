@@ -34,40 +34,5 @@
 		<input type="submit" value="Submit">
 	</form>
 
-	<script>
-		// Highlight empty fields on submit
-		document.querySelector('#myForm').addEventListener('submit', function(event) {
-			var formValid = true;
-			var formFields = this.elements;
-			for (var i = 0; i < formFields.length; i++) {
-				if (formFields[i].required && formFields[i].value.trim() === '') {
-					formValid = false;
-					formFields[i].classList.add('error');
-				}
-				else {
-					formFields[i].classList.remove('error');
-				}
-			}
-			if (!formValid) {
-				event.preventDefault();
-			}
-		});
-
-		// Display error message for invalid email
-		document.querySelector('#email').addEventListener('input', function(event) {
-			var emailField = event.target;
-			if (!emailField.checkValidity()) {
-				emailField.setCustomValidity('Please enter a valid email address');
-			}
-			else {
-				emailField.setCustomValidity('');
-			}
-		});
-
-		// Display success message on submit
-		document.querySelector('#myForm').addEventListener('submit', function(event) {
-			alert('Form submitted successfully!');
-		});
-	</script>
 </body>
 </html>
