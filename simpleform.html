@@ -3,6 +3,7 @@
 <head>
 	<title>Simple Form</title>
 	<style>
+		
 		.error {
 			color: red;
 		}
@@ -10,7 +11,8 @@
 </head>
 <body>
 	<h3>Simple Form</h3>
-	<form method="get">
+	<fieldset>
+	<form method="get" onsubmit="alert('your response has been submitted')">
 		<label for="name">Name:</label>
 		<input type="text" Placeholder="Enter your Name" id="name" name="name" required><br>
 
@@ -33,6 +35,7 @@
 
 		<input type="submit" value="Submit">
 	</form>
+</fieldset>
 
 </body>
 </html>
