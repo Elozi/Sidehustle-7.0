@@ -1,4 +1,46 @@
+body{
+background-image: url(https://c4.wallpaperflare.com/wallpaper/162/454/439/mountains-4k-cool-hd-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
 
+/* Style the wrapper */
+.wrapper {
+    margin: 0 auto;
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: brown;
+    border-color: black;
+    border-inline-style: ;
+  }
+  /* Style the form header */
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  /* Style the form fieldset */
+fieldset {
+    border: none;
+    display: flex;
+    background-color: black;
+  }
   
-  
-  
+  /* Style the form inputs */
+.input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  input[type="submit"]:hover {
+    background-color: #333;
+  }
