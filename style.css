@@ -2,7 +2,7 @@ body{
 background-image: url(https://c4.wallpaperflare.com/wallpaper/162/454/439/mountains-4k-cool-hd-wallpaper-preview.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size: cover ;
 }
 
 /* Style the wrapper */
@@ -12,8 +12,8 @@ background-size: cover;
     padding: 20px;
     border: 1px solid #ccc;
     color: brown;
-    border-color: black;
-    border-inline-style: ;
+    border-color: white;
+    
   }
   /* Style the form header */
 .head {
@@ -39,7 +39,6 @@ fieldset {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #333;
   }
   input[type="submit"]:hover {
     background-color: #333;
