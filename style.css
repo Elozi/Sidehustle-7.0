@@ -12,7 +12,8 @@ background-size: cover ;
     padding: 20px;
     border: 1px solid #ccc;
     color: brown;
-    border-color: white;
+    border-color: brown;
+    background-color: #
     
   }
   /* Style the form header */
@@ -21,6 +22,12 @@ background-size: cover ;
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
+    border: 1px solid #ccc;
+    color: brown;
+    border-color: brown;
+    background-color: rgb(5, 1, 1);
+    text-shadow: 2px 2px rgb(22, 1, 1);
+    borde
   }
   /* Style the form fieldset */
 fieldset {
