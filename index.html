@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Side Hustle Week 1 Task</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title> - The Ultimate Solution for your Pc </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="wrapper">
-	<div class="head">
-		<h3>Registration Form</h3>
-	</div>
-	<fieldset>
-	<form method="get" onsubmit="alert('your response has been submitted')">
-		<label for="name">Name:</label>
-		<input type="text" Placeholder="Enter your Name" id="name" name="name" required><br>
-	<div class="input">
-		<label for="emaigl">Email:</label>
-		<input type="email"Placeholder="Enter your Email" id="email" name="email" required><br>
-	</div>
-	<div class="input">
-		<label for="phone">Phone Number:</label>
-		<input type="tel" Placeholder="Enter your Phone Number"id="phone" name="phone" required><br>
-	</div>
-	<div class="select">
-		<label for="gender">Gender:</label>
-		<select id="gender" name="gender" required>
-			<option value="">Select Gender</option>
-			<option value="male">Male</option>
-			<option value="female">Female</option>
-			<option value="other">Other</option>
-		</select><br>
-	</div>
-	<div class="input">
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required><br>
-	</div>
+  <header>
+    <h3 class="header"> Smart Pc</h3>
+    <nav>
+      <ul>
+        <li>
+          <a>Home</a>
+        </li>
+        <li><a>About</a></li>
+        <li><a>Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<div class="input"><input type="submit" value="Submit"></div>
-	</form>
-</fieldset>
-</div>
+  <main>
+    <h1>XYZ Product - The Ultimate Solution for [Problem]</h1>
+    <p>Introducing XYZ Product - the perfect solution to [problem] that has been troubling you for years. With our cutting-edge technology and innovative design, we have developed a product that will change the way you deal with [problem].</p>
 
+    <h2>How it Works</h2>
+    <p>Our product works by [explanation of how it works]. It is easy to use and requires no technical expertise. All you need to do is [instructions on how to use it].</p>
+
+    <h2>Testimonials</h2>
+    <ul>
+      <li>"XYZ Product has saved me so much time and effort. I no longer have to deal with [problem], and I can focus on [goal]."</li>
+      <li>"I was skeptical at first, but XYZ Product exceeded my expectations. It is truly a game-changer!"</li>
+      <li>"I recommend XYZ Product to anyone who wants to [desired outcome]. It's simply the best!"</li>
+    </ul>
+
+    <h2>Get Started Today</h2>
+    <p>Ready to experience the benefits of XYZ Product? Order now and take advantage of our limited-time offer!</p>
+
+    <form action="#" method="post" onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="form-validation"></div>
+
+  </main>
+
+  <script src="script.js">
+
+    /*function validateForm() {
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const message = document.getElementById("message").value;
+  const validation = document.getElementById("form-validation");
+
+  if (name === "" || email === "" || phone === "" || message === "") {
+    validation.innerHTML =
+
+  </script>
 </body>
 </html>
